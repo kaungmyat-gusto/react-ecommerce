@@ -13,7 +13,7 @@ const Login = () => {
 
   const submitFun = async () => {
     await axios
-      .post(`https://outrageous-bikini-toad.cyclic.app/login`, {
+      .post(`https://wartee-food-deli-server.onrender.com/login`, {
         username: name,
         password: password,
       })

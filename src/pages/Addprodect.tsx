@@ -73,7 +73,7 @@ const Addproduct = ({
       await uploadBytes(imgref, imagestore).then(() => {
         getDownloadURL(imgref).then((url) => {
           axios
-            .post(`https://outrageous-bikini-toad.cyclic.app/createmenu`, {
+            .post(`https://wartee-food-deli-server.onrender.com/createmenu`, {
               typeFood: name,
               price: price,
               imageLink: url,

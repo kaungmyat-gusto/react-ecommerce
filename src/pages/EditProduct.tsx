@@ -56,7 +56,7 @@ const EditProduct = ({
 
   const editfun = () => {
     axios
-      .patch(`https://outrageous-bikini-toad.cyclic.app/edit/${id}`, {
+      .patch(`https://wartee-food-deli-server.onrender.com/edit/${id}`, {
         typeFood: editname,
         price: editprice,
         imageLink: editimage,

@@ -38,7 +38,7 @@ const OrderList = ({
 
   const deleteorder = async (id: any) => {
     await axios
-      .delete(`https://outrageous-bikini-toad.cyclic.app/admin/delete/${id}`)
+      .delete(`https://wartee-food-deli-server.onrender.com/admin/delete/${id}`)
       .then(() => {
         alert("item delete success");
         window.location.reload();

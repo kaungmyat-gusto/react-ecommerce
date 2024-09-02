@@ -77,7 +77,7 @@ const AddtoCart = ({
       const foodcount = addtocartList.map((e: any) => e.count);
 
       await axios
-        .post(`https://outrageous-bikini-toad.cyclic.app/admin/crateorder`, {
+        .post(`https://wartee-food-deli-server.onrender.com/admin/crateorder`, {
           KBZph: kphone,
           KBZname: kname,
           KBZpayslip: kslip,

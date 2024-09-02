@@ -32,7 +32,7 @@ function App() {
 
   useEffect(() => {
     axios
-      .get(`https://outrageous-bikini-toad.cyclic.app/getmenu`)
+      .get(`https://wartee-food-deli-server.onrender.com/getmenu`)
       .then((res) => {
         setLoading(false);
         setProductData(res.data);
@@ -41,7 +41,7 @@ function App() {
 
   useEffect(() => {
     axios
-      .get(`https://outrageous-bikini-toad.cyclic.app/admin/orders`)
+      .get(`https://wartee-food-deli-server.onrender.com/admin/orders`)
       .then((res) => setOrderData(res.data));
   }, []);
 
